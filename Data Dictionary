@@ -1,1 +1,25 @@
 Data Dictionary - Hadoop - Assignment 2 - Heads in the cloud
+############################################################
+Data Dictionary							
+###########################################################							
+							
+Table	Variable	Variable name	Measurement unit	Field size	Allowed values	Unique	Description
+Orbis	Company name	CO NAME	Character	30	A-Z	ID	Company name
+Orbis	Country ISO code	COUNTRY ISO CODE	Character	2	A-Z	NOT NULL	Country
+Orbis	NACE Rev. 2, core code (4 digits)	NACE	Numeric	4	0000-9999	NOT NULL	Activity code
+Orbis	Postcode	POSTCODE	Character	8	A-Z/0000000-9999999	NOT NULL	Postcode
+Orbis	Last avail. year	LAST YEAR	Character	4	0000-9999	NOT NULL	Last available year
+Orbis	"Operating revenue (Turnover)
+th USD Last avail. yr"	OPERATING REVENUE 	Integer	10	0-9999999999999999	NOT NULL	Operating revenue in USD from last year available
+Orbis	"Number of employees
+Last avail. yr"	Nº EMPLOYEES	Integer	7	0-999999999	NOT NULL	Nº of employees from last year available
+Orbis	"Total assets
+th USD Last avail. yr"	TOTAL ASSETS	Integer	10	0-9999999999999999	NOT NULL	Total assets in USD from last year available
+Orbis	Website address	WEBSITE	Character	45	A-Z	NOT NULL	Company website
+Orbis	E-mail address	E-MAIL	Character	45	A-Z	NOT NULL	Company E-mail address 
+Orbis	Telephone number	TELEPHONE	Character	16	0-999999999	NOT NULL	Company phone number
+Orbis	No of branches	Nº BRANCHES	Integer	3	0-999	NOT NULL	Nº of branches
+Orbis	Branch - Name	BRANCH NAME	Character	45	A-Z	NOT NULL	Branch name
+Orbis	Branch - Country ISO code	BRANCH	Character	2	A-Z	NOT NULL	Country of Branch
+Orbis	Branch - City	BRANCH CITY	Character	10	A-Z	NOT NULL	City of Branch
+Orbis	Branch - NACE,Core code	BRANCH - NACE,Cº CORE	Character	4	0000-9999	NOT NULL	Branch activity code
